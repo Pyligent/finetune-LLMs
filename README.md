@@ -4,12 +4,12 @@
 
 ## 2 Evaluate the Fine-tune models
 
-Notebook
+[Notebook]()
 
-## 3 Fine-tune CodeLLAMA and Mitrial 7B
+## 3 Fine-tune CodeLLAMA for Text to SQL 
 
-Notebook
+[Notebook]()
 
 ##  4 Deployment Demo
 
-Notebook
+[Notebook]()
