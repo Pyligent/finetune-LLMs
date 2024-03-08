@@ -4,7 +4,7 @@
 
 ## 2 Evaluate the Fine-tune models
 
-[Notebook]()
+[Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Evaluation.ipynb)
 
 ## 3 Fine-tune CodeLLAMA for Text to SQL 
 
