@@ -23,7 +23,7 @@
 
 [Inference usage Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
 
-[Gradio App]
+[Gradio App](https://github.com/Pyligent/finetune-LLM/blob/main/app.py)
 
 [HuggingFace Space](https://huggingface.co/spaces/jinhybr/finetune-code-llama-7b-Text-to-SQL-Demo)
  
