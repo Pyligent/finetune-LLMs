@@ -15,9 +15,9 @@
 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Fine-Tuning%20codellama.ipynb)
 
-[Fine-tuned CodeLLAMA for Text=to-SQL Model](https://huggingface.co/jinhybr/code-llama-7b-text-to-sql)
+[Fine-tuned CodeLLAMA for Text-to-SQL Model](https://huggingface.co/jinhybr/code-llama-7b-text-to-sql)
 
-[Fine-tuned Mistral-7B for Text=to-SQL Model](https://huggingface.co/jinhybr/Mistral-7B-v0.1-text-to-sql)
+[Fine-tuned Mistral-7B for Text-to-SQL Model](https://huggingface.co/jinhybr/Mistral-7B-v0.1-text-to-sql)
 ##  4 Deployment Demo
 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
