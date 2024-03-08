@@ -8,7 +8,7 @@
 
 ## 3 Fine-tune CodeLLAMA for Text to SQL 
 
-[Notebook]()
+[Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Fine-Tuning%20codellama.ipynb)
 
 ##  4 Deployment Demo
 
