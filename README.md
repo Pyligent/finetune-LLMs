@@ -21,7 +21,9 @@
 [Fine-tuned Mistral-7B for Text-to-SQL Model](https://huggingface.co/jinhybr/Mistral-7B-v0.1-text-to-sql)
 ##  4 Deployment Demo
 
-[Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
+[Inference usage Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
+
+[Gradio App]
 
 [HuggingFace Space](https://huggingface.co/spaces/jinhybr/finetune-code-llama-7b-Text-to-SQL-Demo)
  
