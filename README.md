@@ -4,6 +4,7 @@
 - Framework: Huggingface, Pytorch
 - TRL: Transformer Reinforcement Learning [(TRL)](https://github.com/huggingface/trl)
 - Accelerateor: [FlashAttention](https://github.com/Dao-AILab/flash-attention/tree/main)
+- Evaluate open LLMs on MT-Bench: MT-Bench is a Benchmark designed by LMSYS to test the conversation and instruction-following capabilities of large language models (LLMs). It evaluates LLMs through multi-turn conversations, focusing on their ability to engage in coherent, informative, and engaging exchanges. Since human evaluation is very expensive and time consuming, LMSYS uses GPT-4-Turbo to grade the model responses. MT-Bench is part of the [FastChat Repository](https://github.com/lm-sys/FastChat/blob/main/fastchat/llm_judge/README.md).
 
 ##  1 Fine-tune Google's GEMMA 7B based on databricks-dolly-15k dataset 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Gemma7B_Fine_Tuning.ipynb)
