@@ -5,8 +5,8 @@
 
 - When working with QLoRA, training focuses solely on adapter parameters, not the entire model. Consequently, only adapter weights are saved during training. To facilitate text generation inference, you can save the full model by merging the adapter weights with the main model weights using the merge_and_unload method. Subsequently, save the complete model using the save_pretrained method. This will create a standard model suitable for inference tasks.  
 
-[Fine-tuned GEMMA 7B Model](https://huggingface.co/jinhybr/gemma-7b-Dolly15k-chatml)  
-[Fine-tuned GEMMA 7B Full Model](https://huggingface.co/jinhybr/gemma-7b-Dolly15k-full-chatml)
+    - [Fine-tuned GEMMA 7B Model](https://huggingface.co/jinhybr/gemma-7b-Dolly15k-chatml)  
+    - [Fine-tuned GEMMA 7B Full Model](https://huggingface.co/jinhybr/gemma-7b-Dolly15k-full-chatml)
 
 ## 2 Evaluate the Fine-tune models
 
