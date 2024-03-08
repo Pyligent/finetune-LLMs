@@ -13,3 +13,5 @@
 ##  4 Deployment Demo
 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
+
+[HuggingFace Space](https://huggingface.co/spaces/jinhybr/finetune-code-llama-7b-Text-to-SQL-Demo)
