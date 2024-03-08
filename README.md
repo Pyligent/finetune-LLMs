@@ -12,4 +12,4 @@
 
 ##  4 Deployment Demo
 
-[Notebook]()
+[Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/deploy.ipynb)
