@@ -4,7 +4,17 @@
 - Framework: Huggingface, Pytorch
 - TRL: Transformer Reinforcement Learning [(TRL)](https://github.com/huggingface/trl)
 - Accelerateor: [FlashAttention](https://github.com/Dao-AILab/flash-attention/tree/main)
-- Evaluate open LLMs on MT-Bench: MT-Bench is a Benchmark designed by LMSYS to test the conversation and instruction-following capabilities of large language models (LLMs). It evaluates LLMs through multi-turn conversations, focusing on their ability to engage in coherent, informative, and engaging exchanges. Since human evaluation is very expensive and time consuming, LMSYS uses GPT-4-Turbo to grade the model responses. MT-Bench is part of the [FastChat Repository](https://github.com/lm-sys/FastChat/blob/main/fastchat/llm_judge/README.md).
+- Evaluate open LLMs on MT-Bench: [MT-Bench](https://github.com/lm-sys/FastChat/blob/main/fastchat/llm_judge/README.md) is a Benchmark designed by LMSYS to test the conversation and instruction-following capabilities of large language models (LLMs). It evaluates LLMs through multi-turn conversations, focusing on their ability to engage in coherent, informative, and engaging exchanges. Since human evaluation is very expensive and time consuming, LMSYS uses GPT-4-Turbo to grade the model responses. MT-Bench is part of the [FastChat Repository](https://github.com/lm-sys/FastChat/blob/main/fastchat/llm_judge/README.md).
+
+
+##  1 Dataset
+Important Datasets for fine-tuning LLMs:
+- Using existing open-source datasets, e.g., [Spider](https://huggingface.co/datasets/spider), [SHP](https://huggingface.co/datasets/stanfordnlp/SHP)
+- Using LLMs to create synthetically datasets, e.g., [Alpaca](https://huggingface.co/datasets/tatsu-lab/alpaca),[Ultrafeedback](https://www.notion.so/9de9ac96f0f94aa5aed96361a26e8bf0?pvs=21)
+- Using Humans to create datasets, e.g., [Dolly](https://huggingface.co/datasets/databricks/databricks-dolly-15k),[HH](https://www.notion.so/SageMaker-bi-weekly-sync-0be2e6ba876a4599b4c0da2681dfb78f?pvs=21)
+- Using a combination of the above methods, e.g., [Orca](https://huggingface.co/datasets/Open-Orca/OpenOrca),[Orca DPO](https://huggingface.co/datasets/Intel/orca_dpo_pairs)
+
+The choice of dataset and format depends on the specific scenario and use case. But, preference datasets can inherit biases from the humans or AI that created them. To ensure broader applicability and fairness, incorporate diverse feedback when constructing these datasets.
 
 ##  1 Fine-tune Google's GEMMA 7B based on databricks-dolly-15k dataset 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Gemma7B_Fine_Tuning.ipynb)
