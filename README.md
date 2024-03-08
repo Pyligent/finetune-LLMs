@@ -16,6 +16,16 @@ Important Datasets for fine-tuning LLMs:
 
 The choice of dataset and format depends on the specific scenario and use case. But, preference datasets can inherit biases from the humans or AI that created them. To ensure broader applicability and fairness, incorporate diverse feedback when constructing these datasets.
 
+## 2 TRL and SFTTrainer for Fine-Tuning
+
+SFTTrainer builds upon the robust foundation of the Trainer class from Transformers, offering all the essential features: logging, evaluation, and checkpointing. But SFTTrainer goes a step further by adding a suite of features that streamline the fine-tuning process:
+
+- Dataset Versatility: SFTTrainer seamlessly handles conversational and instruction formats, ensuring for optimal training.
+- Completion Focus: SFTTrainer prioritizes completions for training, ignoring prompts and maximizing efficiency.
+- Packing datasets: SFTTrainer packs a punch by optimizing your datasets for faster, more efficient training runs.
+- Fine-Tuning Finesse: Unleash the power of PEFT (Parameter-Efficient Fine-Tuning) techniques like Q-LoRA. It reduces memory usage during fine-tuning without sacrificing performance through a process called quantization.
+- Conversational Readiness: SFTTrainer equips model and tokenizer for conversational fine-tuning by equipping them with essential special tokens.
+
 ##  1 Fine-tune Google's GEMMA 7B based on databricks-dolly-15k dataset 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Gemma7B_Fine_Tuning.ipynb)
 
