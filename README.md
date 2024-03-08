@@ -1,4 +1,10 @@
 # Fine-Tune Large Languages Models and Evaluation
+##  0 Environment Setup
+- Train Evironment : NIVIDA A100
+- Framework: Huggingface, Pytorch
+- TRL: Transformer Reinforcement Learning [(TRL)](https://github.com/huggingface/trl)
+- Accelerateor: [FlashAttention](https://github.com/Dao-AILab/flash-attention/tree/main)
+
 ##  1 Fine-tune Google's GEMMA 7B based on databricks-dolly-15k dataset 
 [Notebook](https://github.com/Pyligent/finetune-LLM/blob/main/Gemma7B_Fine_Tuning.ipynb)
 
